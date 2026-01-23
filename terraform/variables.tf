@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  description = "S3 bucket name"
+  description = "Unique S3 bucket name"
   type        = string
-  default     = "ci-terraform-plan-demo-12345"
+  default     = "terraform-ci-plan-demo-12345"
 }
